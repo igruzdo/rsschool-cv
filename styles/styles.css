@@ -1,0 +1,82 @@
+body {
+  font-family: 'lato', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.conteiner {
+  margin: 0 auto;
+  width: 766px;
+  border: 2px solid;
+  background-color: #f8f9fa;
+}
+
+.cv {
+  margin: 48px 48px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information_main {
+  width: 355px;
+}
+
+.information_short {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_foto {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.foto {
+  width: 150px;
+  height: 200px;
+  margin-top: -40px;
+}
+
+h4 {
+  color: #3d68b8;
+}
+
+h5 {
+  color: #d10505;
+}
+
+.rss_logo {
+  width: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(238, 235, 235);
+}
+
+a {
+  text-decoration: none;
+  color: #0258f8;
+}
+
+a:hover {
+  color: #ff0a0a;
+}
